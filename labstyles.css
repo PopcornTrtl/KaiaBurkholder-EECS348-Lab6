@@ -1,3 +1,4 @@
 .profileHeader {color:white; padding-left: 30%}
-.profileText {font-size: 15px; color: white; font-family:Impact; font-weight:bold; padding-left: 0%; align-content: center;}
+.profileText {font-size: 15px; color: white; font-family:Georgia; padding-left: 0%; align-content: center;}
 .profileBackground {background-color: #84bd93;}
+.practInput{color: #84bd93; border-color: white; border-radius: 10px; margin-left:40%; margin-top: 10px;}

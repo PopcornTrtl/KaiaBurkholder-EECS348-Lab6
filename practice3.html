@@ -1,0 +1,29 @@
+<html>
+<link rel="stylesheet" type="text/css" href="./labstyles.css"/>
+<head class="profileBackground">
+    <h1 class="profileHeader" style="padding-left:40%">Password Validation</h1>
+</head>
+<body class="profileBackground">
+    <script>
+        function validatePassword(){
+            initial = document.getElementById("initialPassword").value;
+            confirmation = document.getElementById("confirmPassword").value;
+
+            if (initial.length < 8) {
+                window.alert("The password is less than 8 characters long");
+            } 
+            else if (initial != confirmation) {
+                window.alert("The two passwords do not match");
+            }
+            else {
+                window.alert("Your password is all good!");
+            }
+        }
+
+    </script>
+    <input class="practInput" type="text" id="initialPassword"><br>
+    <input class="practInput" type="text" id="confirmPassword"><br>
+    <input class="practInput" type="button" value="Validate Password" onclick="validatePassword()">
+
+</body>
+</html>
